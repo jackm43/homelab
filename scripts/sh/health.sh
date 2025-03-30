@@ -15,8 +15,8 @@
 TIMEOUT=5
 FORMAT="json"
 DEFAULT_PROTOCOL="https"
-OUTPUT_DIR="output_files"
-TFVARS_FILE="/mnt/chatting/projects/homelab-orchestrator/terraform/prod/caddy.auto.tfvars"
+OUTPUT_DIR="../output_files"
+TFVARS_FILE="/mnt/chatting/projects/homelab/terraform/prod/caddy.auto.tfvars"
 
 # Create output directory if it doesn't exist
 mkdir -p $OUTPUT_DIR
