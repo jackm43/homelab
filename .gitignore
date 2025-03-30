@@ -1,0 +1,15 @@
+*.env
+*.hcl
+*.terraform
+*tfstate*
+*all.yml
+*hosts.yml
+
+**/templates/Caddyfile.j2
+**/venv**
+**/__pycache__**
+
+app/stable-diffusion-webui/
+terraform/prod/*.tf*
+terraform/terraform.tfvars
+scripts/output_files/*
